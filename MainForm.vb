@@ -4,6 +4,7 @@ Public Class MainForm
 
     '----------------------------------------------------[Variables]----------------------------------------------------
 
+    ''' <summary>MyValidator is here, so that in the future maybe we can implement validators for WWfiles and other cositas</summary>
     Private MyValidator As IValidator
     Private Modified As Boolean
     Private Filename As String
@@ -278,7 +279,4 @@ Public Class MainForm
 
     End Sub
 
-    Private Sub AutoWrite(sender As Object, e As EventArgs)
-
-    End Sub
 End Class
